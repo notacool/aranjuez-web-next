@@ -1,0 +1,81 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #fdfaf8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.sectionContainer {
+  scroll-snap-align: center;
+}
+
+.imageLeft {
+  margin-top: 30vh;
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+  z-index: 2;
+  box-shadow: 2px 2px 4px;
+}
+
+.imageCenter {
+  margin-top: 45vh;
+  object-fit: cover;
+  width: 30%;
+  height: 50%;
+  margin-left: -10vw;
+  position: absolute;
+  z-index: 2;
+  box-shadow: 3px 2px 20px;
+}
+
+.imageRight {
+  margin-top: 10vh;
+  object-fit: cover;
+  width: 15%;
+  height: 50%;
+  margin-left: 10vw;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 3px 2px 40px;
+}
+
+.interestSitesImg{
+  border-radius: 4px 0px 0px 4px ;
+  margin-bottom: -4px;
+}
+
+.image-gallery {
+  width: 100%;
+  height: auto;
+}
+
+.image-gallery-slide img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center center;
+}
+
+.fullscreen .image-gallery-slide img {
+  max-height: 100vh;
+}

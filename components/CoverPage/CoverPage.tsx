@@ -1,0 +1,93 @@
+import React from "react";
+import { Grid, Typography } from "@mui/material";
+import { makeStyles } from "@mui/styles";
+import { useTheme } from "@mui/material";
+import { Link } from "react-scroll";
+import { useScreenSize } from "@hooks/useScreenSize";
+import RouteDescription from "@components/RouteCardComponents/RouteDescription";
+import CarouselCoverPage from "@components/CarouselCoverImages/Carousel";
+import {
+  DescriptionText,
+  Title,
+  LinkContainer,
+  TitleMobile,
+} from "./coverPageStyles";
+
+const useStyles = makeStyles({
+  titleContainer: {
+    justifyContent: "flex-start",
+    alignItems: "center",
+    top: "50%",
+  },
+});
+
+interface TypographyProps {
+  variant?: string;
+}
+
+export default function CoverPage(props: TypographyProps) {
+  const classes = useStyles();
+  const theme = useTheme();
+  const { isDesktop } = useScreenSize();
+  return isDesktop ? (
+    <Grid
+      container
+      className="sectionContainer"
+      id="home"
+      sx={{ backgroundColor: "#fdfaf8" }}
+    >
+      <Grid item xs={6} className={classes.titleContainer}>
+        <Title>
+          Conoce <br /> Aranjuez
+        </Title>
+        <DescriptionText>
+          <Link to="1" smooth>
+            <Grid container justifyContent="flex-end">
+              <LinkContainer isDesktop={isDesktop}>
+                <Typography variant="h4">Ver Rutas</Typography>
+              </LinkContainer>
+            </Grid>
+          </Link>
+        </DescriptionText>
+      </Grid>
+
+      <Grid item xs={6} style={{ width: "100%", height: "100vh" }}>
+        <img
+          className="imageLeft"
+          alt="aranjuez"
+          src="https://minio.notacool.com/aranjuez/interestingSites/web/puente de barcas/aranjuez_puente_de_barcas_1.jpg"
+        />
+        <img
+          className="imageCenter"
+          alt="aranjuez"
+          src="https://minio.notacool.com/aranjuez/interestingSites/web/iglesia de alpajes/aranjuez_iglesia_alpajes_1.jpg"
+        />
+        <img
+          className="imageRight"
+          alt="aranjuez"
+          src="https://minio.notacool.com/aranjuez/interestingSites/web/casa de infantes/aranjuez_casa_de_infantes_5.jpg"
+        />
+      </Grid>
+    </Grid>
+  ) : (
+    <Grid item xs={12}>
+      <CarouselCoverPage />
+      <Grid container paddingX={3}>
+        <TitleMobile>Conoce Aranjuez</TitleMobile>
+        <RouteDescription
+          accentColor={theme.palette.primary.main}
+          fontSize="16px"
+          lineHeight="19px"
+          marginBottom="4vh"
+        />
+        <Grid item xs={12}>
+          <LinkContainer isDesktop={isDesktop}>
+            <Link to="1" smooth>
+              <Typography variant="h5">Ver Rutas</Typography>
+            </Link>
+          </LinkContainer>
+        </Grid>
+      </Grid>
+    </Grid>
+  );
+}
