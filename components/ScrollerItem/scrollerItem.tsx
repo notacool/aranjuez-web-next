@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Grid2 } from "@mui/material";
 import styled from "styled-components";
 import { Route } from "types";
 import { useScreenSize } from "@hooks/useScreenSize";
@@ -24,12 +24,12 @@ export const ScrollerItem = (props: IScrollerItemProps) => {
       alignItems="center"
     >
       {props.position === "left" && (
-        <Grid item xs={12} md={6}>
+        <Grid2 size={{ xs: 12, md: 6 }}>
           <Image src={props.imageUrl} alt="Aranjuez" />
-        </Grid>
+        </Grid2>
       )}
-      <Grid item xs={12} md={6}>
-        <Grid container padding={5}>
+      <Grid2 size={{ xs: 12, md: 6 }}>
+        <Grid2 container padding={5}>
           <RouteTitle
             title={props.title}
             accentColor={props.accentColor}
@@ -42,27 +42,27 @@ export const ScrollerItem = (props: IScrollerItemProps) => {
             fontSize="24px"
             lineHeight="29px"
           />
-          <Grid container justifyContent="flex-end">
+          <Grid2 container justifyContent="flex-end">
             <RouteButton
               accentColor={props.accentColor}
               position={props.position}
               goTo={props.to}
               url={props.url}
             />
-          </Grid>
-        </Grid>
-      </Grid>
+          </Grid2>
+        </Grid2>
+      </Grid2>
       {props.position === "right" && (
-        <Grid item xs={12} md={6}>
+        <Grid2 size={{ xs: 12, md: 6 }}>
           <Image src={props.imageUrl} alt="Aranjuez" />
-        </Grid>
+        </Grid2>
       )}
     </StyledGrid>
   ) : (
     <StyledGrid id={`${props.routeNumber}`} color={props.mainColor}>
-      <Grid item xs={12}>
+      <Grid2 size={{ xs: 12 }}>
         <ImageMovil src={props.imageUrl} alt="Aranjuez" />
-        <Grid container paddingX={3}>
+        <Grid2 container paddingX={3}>
           <RouteTitle
             title={props.title}
             accentColor={props.accentColor}
@@ -75,7 +75,7 @@ export const ScrollerItem = (props: IScrollerItemProps) => {
             fontSize="16px"
             lineHeight="19px"
           />
-          <Grid item xs={12}>
+          <Grid2 size={{ xs: 12 }}>
             <RouteButton
               fullWidth
               accentColor={props.accentColor}
@@ -83,14 +83,14 @@ export const ScrollerItem = (props: IScrollerItemProps) => {
               goTo={props.to}
               url={props.url}
             />
-          </Grid>
-        </Grid>
-      </Grid>
+          </Grid2>
+        </Grid2>
+      </Grid2>
     </StyledGrid>
   );
 };
 
-const StyledGrid = styled(Grid)<{ color: string }>`
+const StyledGrid = styled(Grid2)<{ color: string }>`
   background-color: ${({ color }) => color};
 `;
 

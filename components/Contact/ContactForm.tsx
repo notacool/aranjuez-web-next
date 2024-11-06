@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Grid, TextField } from "@mui/material";
+import { Button, Grid2, TextField } from "@mui/material";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import { useScreenSize } from "@hooks/useScreenSize";
 import { useValidator } from "@hooks/useValidators";
@@ -76,8 +76,8 @@ export default function ContactForm() {
     (emailDirty && emailError);
 
   return (
-    <Grid container spacing={2} sx={{ paddingRight: isDesktop ? "3em" : 0 }}>
-      <Grid item xs={isDesktop ? 6 : 12}>
+    <Grid2 container spacing={2} sx={{ paddingRight: isDesktop ? "3em" : 0 }}>
+      <Grid2 size={{ xs: isDesktop ? 6 : 12 }}>
         <TextField
           value={name}
           sx={{ background: "#fff" }}
@@ -92,9 +92,9 @@ export default function ContactForm() {
             nameDirty && nameError ? "El campo no puede estar vacío" : ""
           }
         />
-      </Grid>
+      </Grid2>
 
-      <Grid item xs={isDesktop ? 6 : 12}>
+      <Grid2 size={{ xs: isDesktop ? 6 : 12 }}>
         <TextField
           value={email}
           sx={{ background: "#fff" }}
@@ -107,8 +107,8 @@ export default function ContactForm() {
           error={emailDirty && emailError}
           helperText={emailDirty && emailError ? "El email es incorrecto" : ""}
         />
-      </Grid>
-      <Grid item xs={12}>
+      </Grid2>
+      <Grid2 size={{ xs: 12 }}>
         <TextField
           value={subject}
           sx={{ background: "#fff" }}
@@ -123,8 +123,8 @@ export default function ContactForm() {
             subjectDirty && subjectError ? "El campo no puede estar vacío" : ""
           }
         />
-      </Grid>
-      <Grid item xs={12}>
+      </Grid2>
+      <Grid2 size={{ xs: 12 }}>
         <TextField
           value={message}
           sx={{ background: "#fff" }}
@@ -140,8 +140,8 @@ export default function ContactForm() {
             messageDirty && messageError ? "El campo no puede estar vacío" : ""
           }
         />
-      </Grid>
-      <Grid
+      </Grid2>
+      <Grid2
         container
         justifyContent="flex-end"
         marginTop="20px"
@@ -167,7 +167,7 @@ export default function ContactForm() {
             {!buttonDisabled && <TelegramIcon color="primary" />} Enviar
           </Button>
         )}
-      </Grid>
-    </Grid>
+      </Grid2>
+    </Grid2>
   );
 }

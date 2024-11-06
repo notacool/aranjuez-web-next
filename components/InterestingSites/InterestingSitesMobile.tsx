@@ -9,7 +9,7 @@ import {
   CardContent,
   CardMedia,
   Container,
-  Grid,
+  Grid2,
   IconButton,
   Typography,
 } from "@mui/material";
@@ -59,11 +59,10 @@ export default function InterestingSitesMobile() {
       <Main open={open}></Main>
       <DrawerHeader />
       <Container>
-        <Grid container spacing={1}>
-          <Grid
+        <Grid2 container spacing={1}>
+          <Grid2
             container
-            item
-            xs={11}
+            size={{ xs: 11 }}
             style={{ justifyContent: "space-between" }}
           >
             <Searcher
@@ -78,12 +77,11 @@ export default function InterestingSitesMobile() {
               checked={checked}
               setChecked={setChecked}
             />
-          </Grid>
+          </Grid2>
           {sitesToShow.length !== 0 &&
             sitesToShow.map((site, index) => (
-              <Grid
-                item
-                xs={6}
+              <Grid2
+                size={{ xs: 6 }}
                 key={index}
                 style={{ display: "flex", alignItems: "stretch" }}
               >
@@ -106,9 +104,9 @@ export default function InterestingSitesMobile() {
                     </CardContent>
                   </CardActionArea>
                 </Card>
-              </Grid>
+              </Grid2>
             ))}
-        </Grid>
+        </Grid2>
       </Container>
       {/* <DrawerComponent handleDrawerClose={handleDrawerClose} open={open} /> */}
       <Drawer

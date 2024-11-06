@@ -1,6 +1,6 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import { Container, Grid } from "@mui/material";
+import { Container, Grid2 } from "@mui/material";
 import { FooterBox, FooterTypography } from "./footerStyles";
 import ContactForm from "@components/Contact/ContactForm";
 import FooterBottom from "./FooterBottom";
@@ -17,7 +17,7 @@ export default function FooterMobile() {
     <FooterBox id="footer">
       <Box className="sectionContainer" key={key}>
         <Container>
-          <Grid xs={12}>
+          <Grid2 size={{ xs: 12 }}>
             <FooterTypography
               fontWeight="700"
               fontSize="19px"
@@ -26,7 +26,7 @@ export default function FooterMobile() {
               Contacto
             </FooterTypography>
             <ContactForm />
-          </Grid>
+          </Grid2>
         </Container>
       </Box>
       <FooterBottom />

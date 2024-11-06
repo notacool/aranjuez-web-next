@@ -1,7 +1,7 @@
 import InterestingSitesForViewInRoute from "@components/InterestingSites/InterestingSitesForViewInRoute";
 import { SectionTypography } from "@components/RouteDetails/routeDetailsStyles";
 import { INTERESTING_SITES_FOR_VIP_PEOPLE } from "@const/interestingSitesForVipPeople";
-import { Grid } from "@mui/material";
+import { Grid2 } from "@mui/material";
 
 interface IProps {
   id: number;
@@ -14,7 +14,7 @@ export default function DisplayInterestingSitesForVipPeople(props: IProps) {
 
   return (
     <>
-      <Grid item xs={12} sx={{ mt: 5 }}>
+      <Grid2 size={{ xs: 12 }} sx={{ mt: 5 }}>
         <SectionTypography>Puntos de interés en la ciudad</SectionTypography>
         {VipInTheCity.map((site, index) => (
           <InterestingSitesForViewInRoute
@@ -28,8 +28,8 @@ export default function DisplayInterestingSitesForVipPeople(props: IProps) {
             routeVIP
           />
         ))}
-      </Grid>
-      <Grid item xs={12} sx={{ mt: 5 }}>
+      </Grid2>
+      <Grid2 size={{ xs: 12 }} sx={{ mt: 5 }}>
         <SectionTypography>Puntos de interés en el paisaje</SectionTypography>
         {VIpInTheoutskirts.map((site, index) => (
           <InterestingSitesForViewInRoute
@@ -43,7 +43,7 @@ export default function DisplayInterestingSitesForVipPeople(props: IProps) {
             routeVIP
           />
         ))}
-      </Grid>
+      </Grid2>
     </>
   );
 }

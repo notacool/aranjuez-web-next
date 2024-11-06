@@ -6,7 +6,7 @@ import {
   CardContent,
   CardMedia,
   Container,
-  Grid,
+  Grid2,
   LinearProgress,
   Typography,
 } from "@mui/material";
@@ -53,7 +53,7 @@ export default function InterestingSitesPage() {
     <>
       <NavBarDesktop />
       <Container>
-        <Grid
+        <Grid2
           container
           spacing={4}
           style={{
@@ -62,20 +62,19 @@ export default function InterestingSitesPage() {
             paddingBottom: "200px",
           }}
         >
-          <Grid container item xs={3} style={{ display: "flex" }}>
+          <Grid2 size={{ xs: 3 }} container style={{ display: "flex" }}>
             <Filters
               sites={sites}
               setSites={setSites}
               setSearchResult={setSearchResult}
             />
-          </Grid>
-          <Grid container spacing={4} item xs={9}>
+          </Grid2>
+          <Grid2 size={{ xs: 9 }} container spacing={4}>
             <Searcher setSearchResult={setSearchResult} sites={sites} />
             {sitesToShow.length !== 0 &&
               sitesToShow.map((site, index) => (
-                <Grid
-                  item
-                  xs={4}
+                <Grid2
+                  size={{ xs: 4 }}
                   key={index}
                   style={{ display: "flex", alignItems: "stretch" }}
                 >
@@ -98,10 +97,10 @@ export default function InterestingSitesPage() {
                       </CardContent>
                     </CardActionArea>
                   </Card>
-                </Grid>
+                </Grid2>
               ))}
-          </Grid>
-        </Grid>
+          </Grid2>
+        </Grid2>
       </Container>
       <FooterContainer>
         <Footer />

@@ -1,4 +1,4 @@
-import { CardContent, CardMedia, Grid } from "@mui/material";
+import { CardContent, CardMedia, Grid2 } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 import {
@@ -29,20 +29,19 @@ export default function InterestingSitesForViewInRoute(props: ISiteProps) {
 
   return isDesktop ? (
     <CardContainer>
-      <Grid container spacing={4}>
-        <Grid item xs={3}>
+      <Grid2 container spacing={4}>
+        <Grid2 size={{ xs: 3 }}>
           <LinkContainer onClick={() => handleButtonClick(props.siteUrl)}>
             <img
               className="interestSitesImg"
-              border-radius="1px"
               width="100%"
               height="170vh"
               alt="aranjuez"
               src={props.siteImage}
             />
           </LinkContainer>
-        </Grid>
-        <Grid item xs={8}>
+        </Grid2>
+        <Grid2 size={{ xs: 8 }}>
           <TitleTypography onClick={() => handleButtonClick(props.siteUrl)}>
             <LinkContainer>{props.siteName}</LinkContainer>
           </TitleTypography>
@@ -55,8 +54,8 @@ export default function InterestingSitesForViewInRoute(props: ISiteProps) {
               {props.siteIntroduction}
             </DescriptionContainer>
           </DescriptionTypography>
-        </Grid>
-      </Grid>
+        </Grid2>
+      </Grid2>
     </CardContainer>
   ) : (
     <CardContainerMobile>

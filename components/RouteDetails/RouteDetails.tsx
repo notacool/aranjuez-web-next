@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid } from "@mui/material";
+import { Container, Grid2 } from "@mui/material";
 import {
   TitleTypography,
   DescriptionTypography,
@@ -49,7 +49,7 @@ export default function RouteDetails({
   return (
     <>
       <Container>
-        <Grid
+        <Grid2
           container
           direction="row"
           justifyContent="center"
@@ -57,7 +57,7 @@ export default function RouteDetails({
           marginTop="4em"
           marginBottom="3em"
         >
-          <Grid item xs={12}>
+          <Grid2 size={{ xs: 12 }}>
             <TitleTypography
               fontWeight="700"
               fontSize={title.includes("visitantes") ? "70px" : "72px"}
@@ -75,16 +75,19 @@ export default function RouteDetails({
                 {paragraph}
               </DescriptionTypography>
             ))}
-          </Grid>
-          <Grid item xs={12}>
+          </Grid2>
+          <Grid2 size={{ xs: 12 }}>
             <SectionTypography>Vídeo de la ruta</SectionTypography>
-          </Grid>
+          </Grid2>
 
-          <Grid item xs={12} sx={{ display: "flex", justifyContent: "center" }}>
+          <Grid2
+            size={{ xs: 12 }}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <VideoPlayer url={videoUrl} image={image} />
-          </Grid>
+          </Grid2>
 
-          <Grid item xs={12} sx={{ marginTop: "4em" }}>
+          <Grid2 size={{ xs: 12 }} sx={{ marginTop: "4em" }}>
             {videoDescription.map((paragraph, index) => (
               <DescriptionTypography
                 key={index}
@@ -95,14 +98,14 @@ export default function RouteDetails({
                 {paragraph}
               </DescriptionTypography>
             ))}
-          </Grid>
-          <Grid item xs={12}>
+          </Grid2>
+          <Grid2 size={{ xs: 12 }}>
             <SectionTypography>Galería de imágenes</SectionTypography>
-          </Grid>
-          <Grid item xs={12}>
+          </Grid2>
+          <Grid2 size={{ xs: 12 }}>
             <ImageGallery images={filterImages} />
-          </Grid>
-          <Grid item xs={12}>
+          </Grid2>
+          <Grid2 size={{ xs: 12 }}>
             {description.map((paragraph, index) => (
               <DescriptionTypography
                 key={index}
@@ -113,9 +116,9 @@ export default function RouteDetails({
                 {paragraph}
               </DescriptionTypography>
             ))}
-          </Grid>
+          </Grid2>
           {title === "Ruta de los personajes ilustres" && (
-            <Grid item xs={12}>
+            <Grid2 size={{ xs: 12 }}>
               <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
@@ -155,12 +158,12 @@ export default function RouteDetails({
                   </Accordion>
                 </AccordionDetails>
               </Accordion>
-            </Grid>
+            </Grid2>
           )}
           {title !== "Ruta de los personajes ilustres" && (
-            <Grid item xs={12}>
+            <Grid2 size={{ xs: 12 }}>
               <SectionTypography>Puntos de interés</SectionTypography>
-            </Grid>
+            </Grid2>
           )}
           {title === "Ruta de los miradores" ? (
             INTERESTING_SITES_FOR_MIRADORES.map((site, index) => (
@@ -202,12 +205,12 @@ export default function RouteDetails({
               />
             ))
           )}
-          <Grid item xs={12}>
+          <Grid2 size={{ xs: 12 }}>
             <SectionTypography>Mapa</SectionTypography>
-          </Grid>
+          </Grid2>
 
           <iframe src={mapUrl} width="100%" height="600px"></iframe>
-        </Grid>
+        </Grid2>
       </Container>
       <Footer />
     </>

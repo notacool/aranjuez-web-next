@@ -1,5 +1,15 @@
 import React from "react";
-import { Button, Container, Grid, IconButton, List, ListItem, ListItemButton, ListItemText, Typography } from "@mui/material";
+import {
+  Button,
+  Container,
+  Grid2,
+  IconButton,
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemText,
+  Typography,
+} from "@mui/material";
 import ImageGallery from "@components/ImageGallery/ImageGallery";
 import Footer from "@components/Footer/Footer";
 import {
@@ -19,11 +29,11 @@ interface RouteProps {
 export default function InterestingSitesDetails({ url }: RouteProps) {
   const filterImages = images.filter((image) => image.pointOfInterest === url);
   const filterSite = INTERESTING_SITES.filter((site) => site.url === url);
-  const router=useRouter()
+  const router = useRouter();
   return (
     <>
       <Container>
-        <Grid
+        <Grid2
           container
           direction="row"
           justifyContent="center"
@@ -31,7 +41,7 @@ export default function InterestingSitesDetails({ url }: RouteProps) {
           marginTop="5em"
           marginBottom="3em"
         >
-          <Grid item xs={12}>
+          <Grid2 size={{ xs: 12 }}>
             <TitleTypography fontWeight="700" fontSize="72px" lineHeight="88px">
               {filterSite[0].name}
             </TitleTypography>
@@ -43,33 +53,51 @@ export default function InterestingSitesDetails({ url }: RouteProps) {
             >
               {filterSite[0].introduction}
             </DescriptionTypography>
-            <Grid item xs={12} spacing={0} sx={{ padding: 0, marginTop: 5 }}>
+            <Grid2
+              size={{ xs: 12 }}
+              spacing={0}
+              sx={{ padding: 0, marginTop: 5 }}
+            >
               <DescriptionTypography
                 fontWeight="600"
                 fontSize="22px"
-                lineHeight="22px">
+                lineHeight="22px"
+              >
                 Rutas que pasan por <i>{filterSite[0].name}</i>:
               </DescriptionTypography>
               <List>
-                {ROUTES_INFO.map((route) => filterSite[0].routeId.includes(route.routeId) &&
-                  <DescriptionTypography
-                    fontWeight="50"
-                    fontSize="18px"
-                    lineHeight="2px">
-                    <Button variant="outlined" > <a href={`https://minio.notacool.com/aranjuez/${route.url}.pdf`} target="_blank" rel="noopener noreferrer"> R{route.routeId} - {route.title} (PDF)</a></Button></DescriptionTypography>
+                {ROUTES_INFO.map(
+                  (route, id) =>
+                    filterSite[0].routeId.includes(route.routeId) && (
+                      <DescriptionTypography
+                        key={id}
+                        fontWeight="50"
+                        fontSize="18px"
+                        lineHeight="2px"
+                      >
+                        <Button variant="outlined">
+                          <a
+                            href={`https://minio.notacool.com/aranjuez/${route.url}.pdf`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            R{route.routeId} - {route.title} (PDF)
+                          </a>
+                        </Button>
+                      </DescriptionTypography>
+                    )
                 )}
               </List>
+            </Grid2>
+          </Grid2>
 
-            </Grid>
-          </Grid>
-
-          <Grid item xs={12}>
+          <Grid2 size={{ xs: 12 }}>
             <SectionTypography>Galería de imágenes</SectionTypography>
-          </Grid>
-          <Grid item xs={12}>
+          </Grid2>
+          <Grid2 size={{ xs: 12 }}>
             <ImageGallery images={filterImages} />
-          </Grid>
-          <Grid item xs={12} sx={{ marginTop: 2 }}>
+          </Grid2>
+          <Grid2 size={{ xs: 12 }} sx={{ marginTop: 2 }}>
             {filterSite[0].description.map((paragraph, index) => (
               <DescriptionTypography
                 key={index}
@@ -80,14 +108,14 @@ export default function InterestingSitesDetails({ url }: RouteProps) {
                 {paragraph}
               </DescriptionTypography>
             ))}
-          </Grid>
+          </Grid2>
 
-          <Grid item xs={12}>
+          <Grid2 size={{ xs: 12 }}>
             <SectionTypography>Mapa</SectionTypography>
-          </Grid>
+          </Grid2>
 
           <iframe src={filterSite[0].mapUrl} width="640" height="480"></iframe>
-        </Grid>
+        </Grid2>
       </Container>
       <Footer />
     </>

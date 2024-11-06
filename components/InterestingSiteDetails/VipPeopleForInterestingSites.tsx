@@ -1,6 +1,6 @@
 import { SectionTypography } from "@components/RouteDetails/routeDetailsStyles";
 import { ILLUSTRIOUS_PEOPLE } from "@const/illustriousPeople";
-import { Grid } from "@mui/material";
+import { Grid2 } from "@mui/material";
 import styled from "styled-components";
 
 interface IVIpPeopleProps {
@@ -16,8 +16,8 @@ export default function VipPeopleForInterestingSites(props: IVIpPeopleProps) {
         (artist, index) =>
           artist.ubication === name && (
             <CardContainer key={index}>
-              <Grid container spacing={4}>
-                <Grid item xs={12}>
+              <Grid2 container spacing={4}>
+                <Grid2 size={{ xs: 12 }}>
                   <TitleTypography>{artist.name}</TitleTypography>
                   <DescriptionTypography
                     fontWeight="400"
@@ -36,8 +36,8 @@ export default function VipPeopleForInterestingSites(props: IVIpPeopleProps) {
                       {artist.authorText}
                     </DescriptionTypography>
                   </AuthorTextContainer>
-                </Grid>
-              </Grid>
+                </Grid2>
+              </Grid2>
             </CardContainer>
           )
       )}

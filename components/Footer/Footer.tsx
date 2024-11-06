@@ -1,6 +1,6 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import { Grid } from "@mui/material";
+import { Grid2 } from "@mui/material";
 import { FooterBox, FooterTypography } from "./footerStyles";
 import { ROUTES_INFO } from "@const/routes";
 import ContactForm from "@components/Contact/ContactForm";
@@ -20,8 +20,8 @@ export default function Footer() {
   return (
     <FooterBox id="footer">
       <Box className="sectionContainer" key={key}>
-        <Grid container>
-          <Grid item xs={4} sx={{ paddingLeft: "3em" }}>
+        <Grid2 container>
+          <Grid2 size={{ xs: 4 }} sx={{ paddingLeft: "3em" }}>
             <FooterTypography
               fontWeight="700"
               fontSize="24px"
@@ -41,9 +41,9 @@ export default function Footer() {
                 {route.title}
               </FooterTypography>
             ))}
-          </Grid>
+          </Grid2>
 
-          <Grid item xs={8} sx={{ paddingLeft: "4em" }}>
+          <Grid2 size={{ xs: 8 }} sx={{ paddingLeft: "4em" }}>
             <FooterTypography
               fontWeight="700"
               fontSize="24px"
@@ -52,8 +52,8 @@ export default function Footer() {
               Contacto
             </FooterTypography>
             <ContactForm />
-          </Grid>
-        </Grid>
+          </Grid2>
+        </Grid2>
       </Box>
       <FooterBottom />
     </FooterBox>

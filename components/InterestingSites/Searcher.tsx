@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Paper, InputBase } from "@mui/material";
+import { Grid2, Paper, InputBase } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import { useScreenSize } from "@hooks/useScreenSize";
 import { INTERESTING_SITES } from "@const/interestingSites";
@@ -20,7 +20,7 @@ export default function Searcher(props: ISearchProps) {
   };
 
   return (
-    <Grid item xs={isDesktop ? 12 : 10}>
+    <Grid2 size={{ xs: isDesktop ? 12 : 10 }}>
       <Paper
         component="form"
         sx={{
@@ -37,6 +37,6 @@ export default function Searcher(props: ISearchProps) {
           onChange={(e) => getSearch(e.target.value)}
         />
       </Paper>
-    </Grid>
+    </Grid2>
   );
 }

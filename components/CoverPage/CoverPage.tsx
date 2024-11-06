@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography } from "@mui/material";
+import { Grid2, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { useTheme } from "@mui/material";
 import { Link } from "react-scroll";
@@ -30,28 +30,28 @@ export default function CoverPage(props: TypographyProps) {
   const theme = useTheme();
   const { isDesktop } = useScreenSize();
   return isDesktop ? (
-    <Grid
+    <Grid2
       container
       className="sectionContainer"
       id="home"
       sx={{ backgroundColor: "#fdfaf8" }}
     >
-      <Grid item xs={6} className={classes.titleContainer}>
+      <Grid2 size={{ xs: 6 }} className={classes.titleContainer}>
         <Title>
           Conoce <br /> Aranjuez
         </Title>
         <DescriptionText>
           <Link to="1" smooth>
-            <Grid container justifyContent="flex-end">
+            <Grid2 container justifyContent="flex-end">
               <LinkContainer isDesktop={isDesktop}>
                 <Typography variant="h4">Ver Rutas</Typography>
               </LinkContainer>
-            </Grid>
+            </Grid2>
           </Link>
         </DescriptionText>
-      </Grid>
+      </Grid2>
 
-      <Grid item xs={6} style={{ width: "100%", height: "100vh" }}>
+      <Grid2 size={{ xs: 6 }} style={{ width: "100%", height: "100vh" }}>
         <img
           className="imageLeft"
           alt="aranjuez"
@@ -67,12 +67,12 @@ export default function CoverPage(props: TypographyProps) {
           alt="aranjuez"
           src="https://minio.notacool.com/aranjuez/interestingSites/web/casa de infantes/aranjuez_casa_de_infantes_5.jpg"
         />
-      </Grid>
-    </Grid>
+      </Grid2>
+    </Grid2>
   ) : (
-    <Grid item xs={12}>
+    <Grid2 size={{ xs: 12 }}>
       <CarouselCoverPage />
-      <Grid container paddingX={3}>
+      <Grid2 container paddingX={3}>
         <TitleMobile>Conoce Aranjuez</TitleMobile>
         <RouteDescription
           accentColor={theme.palette.primary.main}
@@ -80,14 +80,14 @@ export default function CoverPage(props: TypographyProps) {
           lineHeight="19px"
           marginBottom="4vh"
         />
-        <Grid item xs={12}>
+        <Grid2 size={{ xs: 12 }}>
           <LinkContainer isDesktop={isDesktop}>
             <Link to="1" smooth>
               <Typography variant="h5">Ver Rutas</Typography>
             </Link>
           </LinkContainer>
-        </Grid>
-      </Grid>
-    </Grid>
+        </Grid2>
+      </Grid2>
+    </Grid2>
   );
 }
