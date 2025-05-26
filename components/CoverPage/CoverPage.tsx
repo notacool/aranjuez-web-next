@@ -51,7 +51,7 @@ export default function CoverPage(props: TypographyProps) {
         </DescriptionText>
       </Grid2>
 
-      <Grid2 size={{ xs: 6 }} style={{ width: "100%", height: "100vh" }}>
+      <Grid2 size={{ xs: 6 }} style={{ width: "50%%", height: "100vh" }}>
         <img
           className="imageLeft"
           alt="aranjuez"
