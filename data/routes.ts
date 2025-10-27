@@ -116,4 +116,58 @@ export const ROUTES_INFO: Route[] = [
     mapUrl:
       "https://www.google.com/maps/d/embed?mid=1RGMQ8D4gPI-nfaetOmoAJ6Y-KVaB_lQ&ehbc=2E312F",
   },
+ {
+    routeId: 6,
+    url: "picotajo-doce-calles",
+    title:
+      "Ruta de huertas de Picotajo y las Doce Calles",
+    imageUrl:
+      "",
+    videoUrl:
+      "",
+    to: "6",
+    introduction: [
+      "Las calles, plazas arboladas y huertas de Picotajo, constituyen el primer ejemplo mundial de jardinería a gran escala, cien años anteriores a los jardines de Versalles, a los que influyó con la geometría y perspectivas de sus calles arboladas y plazas en forma de sol, como las Doce Calles (2 Rutas R3 R4 R5). Su conformación y antigüedad (la primera calle se trazó en 1553) fueron determinantes para la inscripción del paisaje cultural de Aranjuez en la Lista de Patrimonio Mundial en 2001.",
+    ],
+    videoDescription: [
+      "",
+      ],
+    description: [
+      "Por este amplio espacio discurría el acceso de la corte a Aranjuez procedente de Madrid. Durante el periodo de los Austrias (siglos XVI y XVII) la entrada a Aranjuez se realizaba por el puente que existió sobre el río Jarama en el punto de la puerta de Legamarejo (46), para pasar a la calle de Entrepuentes (47) y alcanzar la plaza frente al jardín de la Isla (48). Aquí a través de un puente desaparecido sobre el río Tajo (48), se cruzaba el jardín hasta el puente de la Ría (56, Ruta 7) para llegar por la calle de Madrid (55, Ruta 7) hasta el Palacio Real.",
+      "A partir del siglo XVIII, con el advenimiento de los Borbones, el acceso a Aranjuez pasaría a tener otra trayectoria. La construcción del Puente Largo y con ello la creación de un nuevo tramo final del camino desde Madrid a Aranjuez, que enlazaba este puente con la ciudad recién fundada por Fernando VI.  Durante este reinado de Fernando VI se dispone al Norte la plaza conocida como Puerta Cirigata (50), evocando en su perímetro de pies derechos y cerca el diseño de las Doce Calles (2 Rutas R3 R4 R5). En la Puerta Cirigata, también conocida como Pical del Rey, se desdobla el camino que viene de Madrid por el Puente Largo sobre el río Jarama: por un lado, hacia el Puente de Barcas (10. Rutas R1 R3 R4 R5), la entrada norte a la ciudad para los pobladores; por otro, para el rey y los cortesanos, a través de las huertas, por la calle del Rey, hasta el Raso de la Estrella (58, Ruta 7) y el Palacio Real.",
+      "El camino que seguía la comitiva real discurría, así, desde la puerta Cirigata (50) hasta la plaza frente el jardín de la Isla (48). En este punto, en vez de cruzar el jardín de la isla, la comitiva se dirigía hasta el puente Verde sobre el río Tajo (58, Ruta 7) y continuar, en la otra orilla, hasta la plaza de los Coroneles (59, Ruta 7), la calle de Coroneles (53, Ruta 7) y alcanzar la residencia real.",
+    ],
+    mapUrl:
+      "",
+  },
+  {
+    routeId: 7,
+    url: "raso-de-la-estrella",
+    title:
+      "Ruta del Raso de la Estrella",
+    imageUrl:
+      "",
+    videoUrl:
+      "",
+    to: "7",
+    introduction: [
+      "El Raso de la Estrella (40, Rutas R1 R4 R5), debe su nombre a un desaparecido asentamiento medieval. Este amplio espacio al Oeste del palacio, considerado la entrada oficial al Aranjuez, conoció diversas etapas en su conformación, adaptadas éstas a las necesidades protocolarias de los Austrias y los Borbones.",
+    ],
+    videoDescription: [
+      "",
+      ],
+    description: [
+      "La configuración del siglo XVI, acpometida por Juan Bautista de Toledo quedó terminada en 1563. Era un recinto poligonal limitado por los caminos de Toledo (51) y de Madrid (55) que antecedía al Palacio Real. Estas dos calles se unían en su extremo más lejano del palacio por dos calles, que cerraban el polígono. La primera, de la Escuadra, llamada así por estar en ángulo con la de la Huelga, y esta segunda, con un nombre que hace referencia a su uso primigenio como zona de pasto de ganado y posteriormente de expansión y ocio.  Todas las calles se conformaban con dobles hileras de árboles a cada lado según la tradición flamenca.",
+      "Para la diafanidad de este amplio espacio y la adecuación a la estética urbana renacentista. se había ordenado en 1561 el derribo de algunas construcciones. Considerando el punto de fuga el palacio, se aplicaron los principios geométrivos y perspectivos de la estética regia, al servicio de la imagen del poder.",
+      "La imagen es la que se puede contemplar en la vista de L’Hermitte, el óleo del Museo del Prado y los grabados anteriores a la ampliación del palacio del siglo XVIII, un polígono de calles de doble hilera de árboles.",
+      "Frente a la residencia real se dispuso como línea de separación una calle paralela a la fachada, verdadero telón de arbolado. La calle de Madrid (55), formaba parte del itinerario que venía desde la capital a través de Picotajo (1 Ruta 6), y cruzaba el puente desaparecido sobre el río Tajo  (48 Ruta 6) y el puente de la Isla (57).",
+      "En el siglo XVIII el polígono se transformó en un pentadente, proyecto de Santiago Bonavía, quien añadió tres calles entre las de Toledo y Madrid. Sabatini lo terminó, articulando la forma dela parte Oeste y disponiendo al Este,  en el punto de convergencia de las cinco calles, un espacio elíptico que antecedía al patio de armas de la residencia de los reyes.",
+      "La nueva traza favorecía la imagen protocolaria de los Borbones, apoyada en la fuerza militar, como símbolo de poder. De este modo se dispusieron los simétricos cuarteles de Guardias Españolas y Walonas, levantados por Jaime Marquet, a ambos lados de la calle Coroneles (53). Destacan las calles centrales de Guardias Walonas y Españolas (52, 54) y la plaza de Coroneles (59, G Ruta 4). Los pasos que comunicaban con las huertas de Picotajo (1, Ruta 6) y cruzaban el río, como el Puente de la Isla (57) y los miradores del Puente Verde (58, G Ruta 4, 49 Ruta 6) (H) y de la Ría (56, I Ruta 4) ofrecen, al norte, el fondo perspectivo del Tajo, de las calles de Picotajo y del jardín de la Isla.",
+      "En el siglo XIX, la llegada del ferrocarril introdujo novedades en el Raso de la Estrella. Esta línea Madrid- Aranjuez, la segunda línea de la Península, fue inaugurada en 1851. Se ubican en el Raso de la Estrella los vestigios más antiguos del patrimonio arqueológico ferroviario peninsular, habida cuenta de que los del trazado Barcelona-Mataró desaparecieron.",
+      "Las vías atravesaron la superficie hasta situar la primitiva estación frente al palacio real (60). Era la nueva entrada a Aranjuez, por el tradicional espacio, adaptado a la modernidad de la era industrial.  En los años XX se construyó la nueva estación (40).",
+      "Hoy en día, el Raso de la Estrella está bajo un plan director para su puesta en valor patrimonial, como la Entrada Real a Aranjuez. El primero de los proyectos ha sido la recuperación del trazado original de la calle de Guardias Walonas (52) y la salvaguarda de la playa de vías del siglo XIX y primeros años del XX.",
+    ],
+    mapUrl:
+      "",
+  },
 ];
