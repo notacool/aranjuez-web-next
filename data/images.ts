@@ -1319,4 +1319,14 @@ export const images = [
     route: [4],
     pointOfInterest: "plaza-coroneles",
   },
+  /*TODO: Añadir imágenes de galeria de las rutas raso-de-la-estrella y picotajo-doce-calles
+  */
+ {
+    original:
+      "aranjuez/fotos/46_aranjuez_Puerta_de_Legamarejo-2.jpg",
+    thumbnail:
+      "aranjuez/fotos/46_aranjuez_Puerta_de_Legamarejo-2.jpg",
+    route: [6],
+    pointOfInterest: "puerta-legamarejo",
+  },
 ];
