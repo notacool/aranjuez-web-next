@@ -577,7 +577,7 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/estacion del tren/aranjuez_estacion_del_tren_1.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/estacion del tren/aranjuez_estacion_del_tren_1.jpg",
-    route: [1, 4, 5],
+    route: [1, 4, 5, 7],
     pointOfInterest: "estacion-tren",
   },
   {
@@ -585,7 +585,7 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/estacion del tren/aranjuez_estacion_del_tren_2.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/estacion del tren/aranjuez_estacion_del_tren_2.jpg",
-    route: [1, 4, 5],
+    route: [1, 4, 5, 7],
     pointOfInterest: "estacion-tren",
   },
   {
@@ -593,7 +593,7 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/estacion del tren/aranjuez_estacion_del_tren_3.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/estacion del tren/aranjuez_estacion_del_tren_3.jpg",
-    route: [1, 4, 5],
+    route: [1, 4, 5, 7],
     pointOfInterest: "estacion-tren",
   },
   {
@@ -601,7 +601,7 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/estacion del tren/aranjuez_estacion_del_tren_4.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/estacion del tren/aranjuez_estacion_del_tren_4.jpg",
-    route: [1, 4, 5],
+    route: [1, 4, 5, 7],
     pointOfInterest: "estacion-tren",
   },
   {
@@ -609,7 +609,7 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/estacion del tren/aranjuez_estacion_del_tren_5.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/estacion del tren/aranjuez_estacion_del_tren_5.jpg",
-    route: [1, 4, 5],
+    route: [1, 4, 5, 7],
     pointOfInterest: "estacion-tren",
   },
   {
@@ -617,7 +617,7 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/las doce calles/aranjuez_las_doce_calles_1.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/las doce calles/aranjuez_las_doce_calles_1.jpg",
-    route: [3, 5],
+    route: [3, 5, 6],
     pointOfInterest: "doce-calles",
   },
   {
@@ -625,7 +625,7 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/las doce calles/aranjuez_las_doce_calles_2.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/las doce calles/aranjuez_las_doce_calles_2.jpg",
-    route: [3, 5],
+    route: [3, 5, 6],
     pointOfInterest: "doce-calles",
   },
 
@@ -1003,7 +1003,7 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/huertas de picotajo/aranjuez_huertas_de_picotajo_1.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/huertas de picotajo/aranjuez_huertas_de_picotajo_1.jpg",
-    route: [3, 5],
+    route: [3, 5, 6],
     pointOfInterest: "huertas-picotajo",
   },
   {
@@ -1011,7 +1011,7 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/huertas de picotajo/aranjuez_huertas_de_picotajo_2.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/huertas de picotajo/aranjuez_huertas_de_picotajo_2.jpg",
-    route: [3, 5],
+    route: [3, 5, 6],
     pointOfInterest: "huertas-picotajo",
   },
   {
@@ -1019,7 +1019,7 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/huertas de picotajo/aranjuez_huertas_de_picotajo_3.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/huertas de picotajo/aranjuez_huertas_de_picotajo_3.jpg",
-    route: [3, 5],
+    route: [3, 5, 6],
     pointOfInterest: "huertas-picotajo",
   },
   {
@@ -1027,7 +1027,7 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/huertas de picotajo/aranjuez_huertas_de_picotajo_4.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/huertas de picotajo/aranjuez_huertas_de_picotajo_4.jpg",
-    route: [3, 5],
+    route: [3, 5, 6],
     pointOfInterest: "huertas-picotajo",
   },
   {
@@ -1316,17 +1316,313 @@ export const images = [
       "https://minio.notacool.com/aranjuez/interestingSites/web/plaza coroneles/plazaCoroneles.jpg",
     thumbnail:
       "https://minio.notacool.com/aranjuez/interestingSites/web/plaza coroneles/plazaCoroneles.jpg",
-    route: [4],
+    route: [4, 7],
+    pointOfInterest: "plaza-coroneles",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/59_aranjuez_plaza_de_los_coroneles-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/59_aranjuez_plaza_de_los_coroneles-1.jpg",
+    route: [4, 7],
+    pointOfInterest: "plaza-coroneles",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/59_aranjuez_plaza_de_los_coroneles-2.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/59_aranjuez_plaza_de_los_coroneles-2.jpg",
+    route: [4, 7],
+    pointOfInterest: "plaza-coroneles",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/59_aranjuez_plaza_de_los_coroneles-3.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/59_aranjuez_plaza_de_los_coroneles-3.jpg",
+    route: [4, 7],
     pointOfInterest: "plaza-coroneles",
   },
   /*TODO: Añadir imágenes de galeria de las rutas raso-de-la-estrella y picotajo-doce-calles
   */
  {
     original:
-      "aranjuez/fotos/46_aranjuez_Puerta_de_Legamarejo-2.jpg",
+      "https://minio.notacool.com/aranjuez/fotos/46_aranjuez_Puerta_de_Legamarejo-1.jpg",
     thumbnail:
-      "aranjuez/fotos/46_aranjuez_Puerta_de_Legamarejo-2.jpg",
+      "https://minio.notacool.com/aranjuez/fotos/46_aranjuez_Puerta_de_Legamarejo-1.jpg",
     route: [6],
     pointOfInterest: "puerta-legamarejo",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/46_aranjuez_Puerta_de_Legamarejo-2.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/46_aranjuez_Puerta_de_Legamarejo-2.jpg",
+    route: [6],
+    pointOfInterest: "puerta-legamarejo",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/46_aranjuez_Puerta_de_Legamarejo-3.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/46_aranjuez_Puerta_de_Legamarejo-3.jpg",
+    route: [6],
+    pointOfInterest: "puerta-legamarejo",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/47_aranjuez_Calle_de_entre_puentes-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/47_aranjuez_Calle_de_entre_puentes-1.jpg",
+    route: [6],
+    pointOfInterest: "calle-entrepuentes",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/50_aranjuez_puerta_cirigata-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/50_aranjuez_puerta_cirigata-1.jpg",
+    route: [6],
+    pointOfInterest: "puerta-cirigata",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/50_aranjuez_puerta_cirigata-2.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/50_aranjuez_puerta_cirigata-2.jpg",
+    route: [6],
+    pointOfInterest: "puerta-cirigata",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/48_aranjuez_mirador_sobre_el_rio_tajo_y_el_jardin_de_la_isla-3.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/48_aranjuez_mirador_sobre_el_rio_tajo_y_el_jardin_de_la_isla-3.jpg",
+    route: [4, 6],
+    pointOfInterest: "mirador-sobre-rio-tajo",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/48_aranjuez_mirador_sobre_el_rio_tajo_y_el_jardin_de_la_isla-4.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/48_aranjuez_mirador_sobre_el_rio_tajo_y_el_jardin_de_la_isla-4.jpg",
+    route: [4, 6],
+    pointOfInterest: "mirador-sobre-rio-tajo",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/49_mirador_del_puente_verde_hacia_el_raso_de_la_estrella-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/49_mirador_del_puente_verde_hacia_el_raso_de_la_estrella-1.jpg",
+    route: [4, 6, 7],
+    pointOfInterest: "mirador-puente-verde-raso-estrella",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/49_mirador_del_puente_verde_hacia_el_raso_de_la_estrella-2.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/49_mirador_del_puente_verde_hacia_el_raso_de_la_estrella-2.jpg",
+    route: [4, 6, 7],
+    pointOfInterest: "mirador-puente-verde-raso-estrella",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/51_aranjuez_calle_de_toledo-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/51_aranjuez_calle_de_toledo-1.jpg",
+    route: [7],
+    pointOfInterest: "calle-toledo",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/51_aranjuez_calle_de_toledo-2.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/51_aranjuez_calle_de_toledo-2.jpg",
+    route: [7],
+    pointOfInterest: "calle-toledo",
+  }, 
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/51_aranjuez_calle_de_toledo-3.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/51_aranjuez_calle_de_toledo-3.jpg",
+    route: [7],
+    pointOfInterest: "calle-toledo",
+  }, 
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/51_aranjuez_calle_de_toledo-4.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/51_aranjuez_calle_de_toledo-4.jpg",
+    route: [7],
+    pointOfInterest: "calle-toledo",
+  }, 
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/52_aranjuez_calle_de_las_guardias_walonas-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/52_aranjuez_calle_de_las_guardias_walonas-1.jpg",
+    route: [7],
+    pointOfInterest: "calle-guardias-walonas",
+  },    
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/52_aranjuez_calle_de_las_guardias_walonas-2.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/52_aranjuez_calle_de_las_guardias_walonas-2.jpg",
+    route: [7],
+    pointOfInterest: "calle-guardias-walonas",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/53_aranjuez_calle_de_los_coroneles-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/53_aranjuez_calle_de_los_coroneles-1.jpg",
+    route: [7],
+    pointOfInterest: "calle-coroneles",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/53_aranjuez_calle_de_los_coroneles-2.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/53_aranjuez_calle_de_los_coroneles-2.jpg",
+    route: [7],
+    pointOfInterest: "calle-coroneles",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/54_aranjuez_calle_de_guardias_Españolas-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/54_aranjuez_calle_de_guardias_Españolas-1.jpg",
+    route: [7],
+    pointOfInterest: "calle-guardias-espanolas",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/55_aranjuez_calle_de_Madrid-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/55_aranjuez_calle_de_Madrid-1.jpg",
+    route: [7],
+    pointOfInterest: "calle-madrid",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/56_aranjuez_mirador_de_la_ria-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/56_aranjuez_mirador_de_la_ria-1.jpg",
+    route: [4, 7],
+    pointOfInterest: "mirador-ria-puente-enmedio",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/56_aranjuez_mirador_de_la_ria-2.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/56_aranjuez_mirador_de_la_ria-2.jpg",
+    route: [4, 7],
+    pointOfInterest: "mirador-ria-puente-enmedio",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/56_aranjuez_mirador_de_la_ria-3.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/56_aranjuez_mirador_de_la_ria-3.jpg",
+    route: [4, 7],
+    pointOfInterest: "mirador-ria-puente-enmedio",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/56_aranjuez_mirador_de_la_ria-4.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/56_aranjuez_mirador_de_la_ria-4.jpg",
+    route: [4, 7],
+    pointOfInterest: "mirador-ria-puente-enmedio",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/57_aranjuez_puente_de_la_isla-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/57_aranjuez_puente_de_la_isla-1.jpg",
+    route: [7],
+    pointOfInterest: "puente-isla",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/57_aranjuez_puente_de_la_isla-2.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/57_aranjuez_puente_de_la_isla-2.jpg",
+    route: [7],
+    pointOfInterest: "puente-isla",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/57_aranjuez_puente_de_la_isla-3.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/57_aranjuez_puente_de_la_isla-3.jpg",
+    route: [7],
+    pointOfInterest: "puente-isla",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/57_aranjuez_puente_de_la_isla-4.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/57_aranjuez_puente_de_la_isla-4.jpg",
+    route: [7],
+    pointOfInterest: "puente-isla",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/57_aranjuez_puente_de_la_isla-5.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/57_aranjuez_puente_de_la_isla-5.jpg",
+    route: [7],
+    pointOfInterest: "puente-isla",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/58_aranjuez_mirador_del_puente_verde_hacia_picotajo-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/58_aranjuez_mirador_del_puente_verde_hacia_picotajo-1.jpg",
+    route: [4, 7],
+    pointOfInterest: "mirador-puente-verde-picotajo",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/60_aranjuez_primera_estacion_de_tren-1.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/60_aranjuez_primera_estacion_de_tren-1.jpg",
+    route: [7],
+    pointOfInterest: "primera-estacion-tren",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/60_aranjuez_primera_estacion_de_tren-2.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/60_aranjuez_primera_estacion_de_tren-2.jpg",
+    route: [7],
+    pointOfInterest: "primera-estacion-tren",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/60_aranjuez_primera_estacion_de_tren-3.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/60_aranjuez_primera_estacion_de_tren-3.jpg",
+    route: [7],
+    pointOfInterest: "primera-estacion-tren",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/60_aranjuez_primera_estacion_de_tren-4.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/60_aranjuez_primera_estacion_de_tren-4.jpg",
+    route: [7],
+    pointOfInterest: "primera-estacion-tren",
+  },
+  {
+    original:
+      "https://minio.notacool.com/aranjuez/fotos/60_aranjuez_primera_estacion_de_tren-5.jpg",
+    thumbnail:
+      "https://minio.notacool.com/aranjuez/fotos/60_aranjuez_primera_estacion_de_tren-5.jpg",
+    route: [7],
+    pointOfInterest: "primera-estacion-tren",
   },
 ];
