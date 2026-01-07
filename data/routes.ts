@@ -137,7 +137,7 @@ export const ROUTES_INFO: Route[] = [
       "El camino que seguía la comitiva real discurría, así, desde la puerta Cirigata (50) hasta la plaza frente el jardín de la Isla (48). En este punto, en vez de cruzar el jardín de la isla, la comitiva se dirigía hasta el puente Verde sobre el río Tajo (58, Ruta 7) y continuar, en la otra orilla, hasta la plaza de los Coroneles (59, Ruta 7), la calle de Coroneles (53, Ruta 7) y alcanzar la residencia real.",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: 7,
@@ -166,6 +166,6 @@ export const ROUTES_INFO: Route[] = [
       "Hoy en día, el Raso de la Estrella está bajo un plan director para su puesta en valor patrimonial, como la Entrada Real a Aranjuez. El primero de los proyectos ha sido la recuperación del trazado original de la calle de Guardias Walonas (52) y la salvaguarda de la playa de vías del siglo XIX y primeros años del XX.",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
 ];

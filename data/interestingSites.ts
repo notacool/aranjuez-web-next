@@ -987,7 +987,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "En este punto estuvo el antiguo puente sobre el río Jarama, cuando el cauce pasaba por aquí en el siglo XVI. Es el inicio de la calle de Entrepuentes (47) ",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [6],
@@ -1002,7 +1002,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "Juan Bautista de Toledo dotó a la calle de dos plazas en sus extremos, desde donde trazaría las calles radiales que articulan la superficie de Picotajo. La calle, como todas las de Picotajo, se conformó con doble hilera de árboles, que se regaban con acequias que discurrían entre medias, según la tradición flamenca que Felipe II había conocido durante su viaje por Europa y su estancia en la corte de su tía María de Hungría en Bélgica.",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [4,6],
@@ -1018,7 +1018,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "El jardín de la Isla fue conformado por Juan Bautista de Toledo a partir de 1561 sobre la antigua huerta de la reina Isabel la Católica. Sufrió decisivas transformaciones en el siglo XVII y XVIII, pero el eje que cruza el jardín sigue siendo el original.",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [4,6,7],
@@ -1032,7 +1032,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "El puente propició favoreció la teatralidad protocolaria del acceso al palacio. Incrementaba la distancia hasta el palacio respecto del paso de tiempos de los Austrias por la calle Madrid, una lateral. Desde el Puente Verde una corta calle conducía a la plaza de Coroneles (59, Ruta 7). De este modo, las entradas y desfiles de los Borbones ampliaban su recorrido hasta la fachada del palacio, por la calle central de Coroneles (53, Ruta 7).",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [6],
@@ -1047,7 +1047,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "Su forma evoca a las Doce Calles, pero su función es diferente. Ya está desprovista del simbolismo renacentista de aquella plaza. La Puerta Cirigata tiene como fin diferenciar la jerarquía de la familia real y la corte respecto de los vecinos. Éstos seguían otro camino hasta el Puente de Barcas (10, Rutas R1 R3 R4 R5)), y entraban en la ciudad por la parte de atrás del Palacio Real. Así es como se entra en Aranjuez hoy en día desde Madrid.",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [7],
@@ -1061,7 +1061,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "En el siglo XVIII se integró en el pentadente trazado por Santiago Bonavía y terminado por Francesco Sabatini. Conserva uno de los olmos más longevos de Aranjuez.",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [7],
@@ -1075,7 +1075,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "Converge frente a la fachada de Palacio Real y es simétrica a la calle de Guardias Españolas (54).",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [7],
@@ -1089,7 +1089,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "Francesco Sabatini situó en el extremo más occidental la plaza de Coroneles (59). Siguiendo la tradición del Aranjuez del siglo XVI la calle fue plantada con doble hilera de árboles.  En el extremo oriental, se abre la fachada principal del palacio, en la que destacan las dos alas laterales, el pórtico y la silueta de los tres reyes que coronan el ático (de izquierda a derecha): Felipe II, Fernando VI y Felipe V.",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [7],
@@ -1103,7 +1103,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "Converge frente a la fachada de Palacio Real y es simétrica a la calle de Guardias Walonas (52).",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [7],
@@ -1117,7 +1117,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "Una plaza dispuesta por Juan Bautista de Toledo, antecedía el puente de la Isla, sobre la ría (57).",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [4,7],
@@ -1131,7 +1131,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "Recibe su nombre por estar en medio del Puente de la Isla y del puente junto al Palacio. Este puente facilitaba el acceso a los molinos medievales que existieron en la ría y que desaparecieron con las reformas en la zona del siglo XVIII.",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [7],
@@ -1160,7 +1160,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "Desde aquí se puede contemplar la panorámica del río aguas arriba hacia el Este. Hacia el otro lado, el trazado viario original del ferrocarril del siglo XIX se suma a la perspectiva del cauce. Al Sur se expanden las huertas de Picotajo (1, Rutas R3 R4 R5 R6).",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [4,7],
@@ -1175,7 +1175,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "El valor que la dinastía de los Borbones confirió al ejército como expresión de poder y potencia militar explica la organización de desfiles militares que partían desde esta plaza hacia el palacio y la disposición de los cuarteles de Guardias Walonas y Guardias Españolas a ambos lados de esta calle central.",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
   {
     routeId: [7],
@@ -1189,6 +1189,6 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "La primera estación de tren estuvo frente a palacio. Fue construida hacia 1850 por Narciso Pascual y Colomer. Se conserva uno de sus andenes.  Fue sustituida en los años 20 por la nueva estación (40), levantada en el extremo oeste del Raso de la Estrella.",
     ],
     mapUrl:
-      "https://www.google.com/maps/d/u/0/edit?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&usp=sharing",
+      "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
   },
 ];
