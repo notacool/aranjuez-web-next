@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
-  plugins: [['styled-components', { ssr: true }]],
+  compiler: {
+    styledComponents: true,
+  },
   // typescript:{
   //   ignoreBuildErrors: true,
   // }
