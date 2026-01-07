@@ -1,4 +1,5 @@
 import { CardContent, CardMedia, Grid2 } from "@mui/material";
+import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
 import {
@@ -32,13 +33,15 @@ export default function InterestingSitesForViewInRoute(props: ISiteProps) {
       <Grid2 container spacing={4}>
         <Grid2 size={{ xs: 3 }}>
           <LinkContainer onClick={() => handleButtonClick(props.siteUrl)}>
-            <img
-              className="interestSitesImg"
-              width="100%"
-              height="170vh"
-              alt="aranjuez"
-              src={props.siteImage}
-            />
+            <div style={{ position: 'relative', width: '100%', height: '170px' }}>
+              <Image
+                className="interestSitesImg"
+                alt="aranjuez"
+                src={props.siteImage}
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
           </LinkContainer>
         </Grid2>
         <Grid2 size={{ xs: 8 }}>

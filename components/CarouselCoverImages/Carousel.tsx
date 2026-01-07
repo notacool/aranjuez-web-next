@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -12,7 +13,9 @@ export default function CarouselCoverPage() {
   return (
     <Carousel showThumbs={false} infiniteLoop showStatus={false} autoPlay>
       {IMAGES.map((image, index) => (
-        <img key={index} width="100%" height="300vh" src={image} alt="Vista Aranjuez" />
+        <div key={index} style={{ position: 'relative', width: '100%', height: '300px' }}>
+          <Image src={image} alt="Vista Aranjuez" fill style={{ objectFit: 'cover' }} />
+        </div>
       ))}
     </Carousel>
   );

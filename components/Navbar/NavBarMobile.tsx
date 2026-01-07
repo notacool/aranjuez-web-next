@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
@@ -23,17 +24,23 @@ export default function NavBarMobile({ open, handleDrawerOpen }: NavBarProps) {
         <Typography sx={{ flexGrow: 1 }}>
           <LinkContainer>
             <Link to="home" smooth onClick={() => router.push("/")}>
-              <img
-                src="https://www.aranjuez.es/wp-content/uploads/2019/09/firma_web.png"
-                width="100vw"
-                height="50vh"
-                alt="Aranjuez"
-              ></img>
+              <div style={{ position: 'relative', width: '100vw', height: '50px' }}>
+                <Image
+                  src="https://www.aranjuez.es/wp-content/uploads/2019/09/firma_web.png"
+                  alt="Aranjuez"
+                  fill
+                  style={{ objectFit: 'contain' }}
+                />
+              </div>
             </Link>
             <ImgContainer>
-              <CulturaContainer src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Logotipo_del_Ministerio_de_Cultura_y_Deporte.svg/2560px-Logotipo_del_Ministerio_de_Cultura_y_Deporte.svg.png"></CulturaContainer>
+              <div style={{ position: 'relative', width: '100px', height: '50px' }}>
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Logotipo_del_Ministerio_de_Cultura_y_Deporte.svg/2560px-Logotipo_del_Ministerio_de_Cultura_y_Deporte.svg.png" alt="Cultura" fill style={{ objectFit: 'contain' }} />
+              </div>
             </ImgContainer>
-            <LogoHumanidadContainer src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/World_Heritage_Logo_global.svg/230px-World_Heritage_Logo_global.svg.png"></LogoHumanidadContainer>
+            <div style={{ position: 'relative', width: '100px', height: '50px' }}>
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/World_Heritage_Logo_global.svg/230px-World_Heritage_Logo_global.svg.png" alt="UNESCO" fill style={{ objectFit: 'contain' }} />
+            </div>
           </LinkContainer>
         </Typography>
         <IconButton
