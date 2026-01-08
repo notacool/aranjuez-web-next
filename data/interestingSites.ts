@@ -745,7 +745,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
     introduction: `La construcción del palacio se inició en 1852 según proyecto del arquitecto Alejandro Sureda en
     un estilo de inspiración clasicista, conforme a los movimientos de revival del siglo XIX. Fue el
     palacio de la Reina Madre, María Cristina de Borbón. Se levantó en los terrenos que ocupaban la
-    finca agropecuaria del siglo XVIII de igual nombre bajo el Monte Parnaso (B). Fue modificado por
+    finca agropecuaria del siglo XVIII de igual nombre bajo el Monte Parnaso. Fue modificado por
     José Segundo de Lema. El pabellón frontal neomedieval que enmascara el núcleo original es
     obra de la década de 1920.`,
     description: [
@@ -794,7 +794,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
       "La estación:",
       "La originaria línea Madrid-Aranjuez de 1851, la segunda de la Península y tercera de España, tuvo una primera estación, más cercana al palacio, obra de Narciso Pascual y Colomer. Esta segunda, de principios del siglo XX, combina elementos de diversa raigambre: mudéjar, en la techumbre del interior de la sala de viajeros; autóctonos, como la cerámica y el aparejo toledano; clasicistas como los volúmenes jerarquizados y los arcos centrales de la fachada. Los materiales predominantes, ladrillo y piedra de Colmenar, prolongan la tradición constructiva de Aranjuez.",
       "El raso de la Estrella:",
-      "En el siglo XVI, sobre el espacio de un asentamiento medieval del que toma el nombre, limitado por los caminos de Madrid y Toledo, fue trazado un recinto poligonal que antecedía al Palacio Real. Convertido en pentadente en el siglo XVIII, fue reforzada su traza, desde la estrategia militar y la símbología de poder, con los simétricos cuarteles de Guardias Españolas y Walonas. Destacan las calles centrales, la plaza Coroneles (G) y los accesos que desde las huertas de Picotajo cruzaban el río, los miradores del Puente Verde (H) y de la Ría (I). Al Norte ofrece el fondo perspectivo del río y del jardín de la Isla.",
+      "En el siglo XVI, sobre el espacio de un asentamiento medieval del que toma el nombre, limitado por los caminos de Madrid y Toledo, fue trazado un recinto poligonal que antecedía al Palacio Real. Convertido en pentadente en el siglo XVIII, fue reforzada su traza, desde la estrategia militar y la símbología de poder, con los simétricos cuarteles de Guardias Españolas y Walonas. Destacan las calles centrales, la plaza Coroneles y los accesos que desde las huertas de Picotajo cruzaban el río, los miradores del Puente Verde y de la Ría. Al Norte ofrece el fondo perspectivo del río y del jardín de la Isla.",
     ],
     mapUrl:
       "https://www.google.com/maps/d/embed?mid=1wMfbZyqiCb-mM4bxK3Rt-ZDs3jHEuoE&ehbc=2E312F",
@@ -984,7 +984,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
     description: [
       "En aquellos tiempos se llamaba la “Puerta de la calle de Lemus”.",
       "Siguiendo la tradición constructiva de Aranjuez, estas puertas se levantaron con ladrillo y piedra de Colmenar, conformando una disposición simétrica que evoca los arcos de triunfo de la antigüedad clásica, con un acceso central. Las pilastras se rematan con jarrones de piedra.",
-      "En este punto estuvo el antiguo puente sobre el río Jarama, cuando el cauce pasaba por aquí en el siglo XVI. Es el inicio de la calle de Entrepuentes (47) ",
+      "En este punto estuvo el antiguo puente sobre el río Jarama, cuando el cauce pasaba por aquí en el siglo XVI. Es el inicio de la calle de Entrepuentes.",
     ],
     mapUrl:
       "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
@@ -996,7 +996,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
     image:
       "https://minio.notacool.com/aranjuez/fotos/47_aranjuez_Calle_de_entre_puentes-1.jpg",
     introduction:
-      "Este tramo del camino real a Madrid daba paso al Raso de la Estrella (Ruta 7) y prolongaba la calle de Madrid hasta la puerta del Palacio Real. Fue trazada por Luis y Gaspar de Vega en la década de los cincuenta y remodelada por Juan Bautista de Toledo a partir de 1561.",
+      "Este tramo del camino real a Madrid daba paso al Raso de la Estrella y prolongaba la calle de Madrid hasta la puerta del Palacio Real. Fue trazada por Luis y Gaspar de Vega en la década de los cincuenta y remodelada por Juan Bautista de Toledo a partir de 1561.",
     description: [
       "Recibe su nombre por estar situada entre dos puentes hoy desaparecidos, el del río Jarama (por entonces el cauce pasaba por este punto) y el del río Tajo.",
       "Juan Bautista de Toledo dotó a la calle de dos plazas en sus extremos, desde donde trazaría las calles radiales que articulan la superficie de Picotajo. La calle, como todas las de Picotajo, se conformó con doble hilera de árboles, que se regaban con acequias que discurrían entre medias, según la tradición flamenca que Felipe II había conocido durante su viaje por Europa y su estancia en la corte de su tía María de Hungría en Bélgica.",
@@ -1011,7 +1011,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
     image:
       "https://minio.notacool.com/aranjuez/fotos/48_aranjuez_mirador_sobre_el_rio_tajo_y_el_jardin_de_la_isla-3.jpg",
     introduction:
-      "Esta plaza semicircular es uno de los focos de distribución de calles radiales que configuran la traza renacentista de las huertas de Picotajo. Una de estas calles es la del Rey, que conduce al acceso norte de las huertas, la Puerta Cirigata (50).",
+      "Esta plaza semicircular es uno de los focos de distribución de calles radiales que configuran la traza renacentista de las huertas de Picotajo. Una de estas calles es la del Rey, que conduce al acceso norte de las huertas, la Puerta Cirigata.",
     description: [
       "En este punto estuvo el desaparecido puente de madera que usaban los Austrias cundo llegaban desde Madrid, por la calle de Entrepuentes, para acceder al jardín de la Isla y atravesándolo, llegar a la calle de Madrid. Fue sustituido por otro puente, obra de Santiago Bonavía, en el siglo XVIII, pero también desapareció, al ser arrasado por una riada.",
       "Cuando los viajeros llegaban a este punto mirador, al cruzar el puente tenía dos opciones, seguir el camino de los reyes por la calle de Madrid, o bien, si había intención de impresionar a los visitantes, se les conducía por dentro del jardín de la Isla para llegar igualmente al palacio.",
@@ -1027,9 +1027,9 @@ export const INTERESTING_SITES: InterestingSites[] = [
     image:
       "https://minio.notacool.com/aranjuez/fotos/49_mirador_del_puente_verde_hacia_el_raso_de_la_estrella-1.jpg",
     introduction:
-      "En este punto estuvo el desaparecido Puente Verde (Rutas H R4 Ruta de los Miradores, 58 R7 Ruta del Raso de la Estrella). Este paso dispuesto por Santiago Bonavía para desde las huertas de Picotajo acceder al Raso de la Estrella (40, Ruta 7 Ruta del Raso de la Estrella) y al palacio Real sin cruzar por el jardín de la Isla. Estaba construido en madera.",
+      "En este punto estuvo el desaparecido Puente Verde. Este paso dispuesto por Santiago Bonavía para desde las huertas de Picotajo acceder al Raso de la Estrella y al palacio Real sin cruzar por el jardín de la Isla. Estaba construido en madera.",
     description: [
-      "El puente propició favoreció la teatralidad protocolaria del acceso al palacio. Incrementaba la distancia hasta el palacio respecto del paso de tiempos de los Austrias por la calle Madrid, una lateral. Desde el Puente Verde una corta calle conducía a la plaza de Coroneles (59, Ruta 7). De este modo, las entradas y desfiles de los Borbones ampliaban su recorrido hasta la fachada del palacio, por la calle central de Coroneles (53, Ruta 7).",
+      "El puente propició favoreció la teatralidad protocolaria del acceso al palacio. Incrementaba la distancia hasta el palacio respecto del paso de tiempos de los Austrias por la calle Madrid, una lateral. Desde el Puente Verde una corta calle conducía a la plaza de Coroneles. De este modo, las entradas y desfiles de los Borbones ampliaban su recorrido hasta la fachada del palacio, por la calle central de Coroneles.",
     ],
     mapUrl:
       "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
@@ -1043,8 +1043,8 @@ export const INTERESTING_SITES: InterestingSites[] = [
     introduction:
       "Fue conformada por Santiago Bonavía para distribuir el nuevo acceso de los Borbones al Real Sitio desde el Puente Largo, construido en el siglo XVIII. Es una plaza circular, marcada la circunferencia con una valla de ladrillo pautada por pilastras rematadas por huevos de piedra caliza de Colmenar. Se complementaba con la casa del guarda. También se conoció como Pical del Rey.",
     description: [
-      "Los documentos la citan en 1751. Un acceso lo tiene al norte, por donde entra el camino del Puente Largo. Luego se bifurca el camino de Madrid en dos caminos con sus respectivas puertas. El camino Suroeste conducía al rey y a la corte, a través de las huertas de Picotajo hacia el Puente Verde sobre el río Tajo (49, Ruta 7), un nuevo paso que sustituía al usado en tiempos de los Austrias. El camino Sureste conducía hacia la ciudad de Aranjuez.",
-      "Su forma evoca a las Doce Calles, pero su función es diferente. Ya está desprovista del simbolismo renacentista de aquella plaza. La Puerta Cirigata tiene como fin diferenciar la jerarquía de la familia real y la corte respecto de los vecinos. Éstos seguían otro camino hasta el Puente de Barcas (10, Rutas R1 R3 R4 R5)), y entraban en la ciudad por la parte de atrás del Palacio Real. Así es como se entra en Aranjuez hoy en día desde Madrid.",
+      "Los documentos la citan en 1751. Un acceso lo tiene al norte, por donde entra el camino del Puente Largo. Luego se bifurca el camino de Madrid en dos caminos con sus respectivas puertas. El camino Suroeste conducía al rey y a la corte, a través de las huertas de Picotajo hacia el Puente Verde sobre el río Tajo, un nuevo paso que sustituía al usado en tiempos de los Austrias. El camino Sureste conducía hacia la ciudad de Aranjuez.",
+      "Su forma evoca a las Doce Calles, pero su función es diferente. Ya está desprovista del simbolismo renacentista de aquella plaza. La Puerta Cirigata tiene como fin diferenciar la jerarquía de la familia real y la corte respecto de los vecinos. Éstos seguían otro camino hasta el Puente de Barcas, y entraban en la ciudad por la parte de atrás del Palacio Real. Así es como se entra en Aranjuez hoy en día desde Madrid.",
     ],
     mapUrl:
       "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
@@ -1072,7 +1072,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
     introduction:
       "Es una de las calles que conforman el pentadente trazado por Santiago Bonavía y terminado por Francesco Sabatini. A la mitad de su longitud se encuentra el cuartel de Guardias Walonas, construido por Jaime Marquet en mismo siglo. Se conforma con triple hilera de árboles, para favorecer el efecto perspectivo desde los miradores de las alas laterales del palacio.",
     description: [
-      "Converge frente a la fachada de Palacio Real y es simétrica a la calle de Guardias Españolas (54).",
+      "Converge frente a la fachada de Palacio Real y es simétrica a la calle de Guardias Españolas.",
     ],
     mapUrl:
       "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
@@ -1086,7 +1086,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
     introduction:
       "Es el eje central del pentadente que al Oeste del palacio Real diseñó Santiago Bonavía y terminó Francesco Sabatini. Es el tramo final del acceso de la corte a Aranjuez en el siglo XVIII. Destaca la teatralidad y el efecto perspectivo de las vistas desde sus dos extremos.",
     description: [
-      "Francesco Sabatini situó en el extremo más occidental la plaza de Coroneles (59). Siguiendo la tradición del Aranjuez del siglo XVI la calle fue plantada con doble hilera de árboles.  En el extremo oriental, se abre la fachada principal del palacio, en la que destacan las dos alas laterales, el pórtico y la silueta de los tres reyes que coronan el ático (de izquierda a derecha): Felipe II, Fernando VI y Felipe V.",
+      "Francesco Sabatini situó en el extremo más occidental la plaza de Coroneles. Siguiendo la tradición del Aranjuez del siglo XVI la calle fue plantada con doble hilera de árboles.  En el extremo oriental, se abre la fachada principal del palacio, en la que destacan las dos alas laterales, el pórtico y la silueta de los tres reyes que coronan el ático (de izquierda a derecha): Felipe II, Fernando VI y Felipe V.",
     ],
     mapUrl:
       "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
@@ -1100,7 +1100,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
     introduction:
       "Es una de las calles que conforman el pentadente trazado por Santiago Bonavía y terminado por Francesco Sabatini. A la mitad de su longitud se encuentra el cuartel de Guardias Españolas, construido por Jaime Marquet en mismo siglo. Se conforma con triple hilera de árboles, para favorecer el efecto perspectivo desde los miradores de las alas laterales del palacio.",
     description: [
-      "Converge frente a la fachada de Palacio Real y es simétrica a la calle de Guardias Walonas (52).",
+      "Converge frente a la fachada de Palacio Real y es simétrica a la calle de Guardias Walonas.",
     ],
     mapUrl:
       "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
@@ -1114,7 +1114,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
     introduction:
       "Fue el último segmento del acceso a Aranjuez desde Madrid en la época de los Austrias. A la manera flamenca, está conformada por doble hilera de árboles. Constituye el límite norte del Raso de la Estrella y es una de las calles que en el siglo XVIII se integraron al Pentadente que desde el siglo XVIII articula la zona.",
     description: [
-      "Una plaza dispuesta por Juan Bautista de Toledo, antecedía el puente de la Isla, sobre la ría (57).",
+      "Una plaza dispuesta por Juan Bautista de Toledo, antecedía el puente de la Isla, sobre la ría.",
     ],
     mapUrl:
       "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
@@ -1140,9 +1140,9 @@ export const INTERESTING_SITES: InterestingSites[] = [
     image:
       "https://minio.notacool.com/aranjuez/fotos/57_aranjuez_puente_de_la_isla-1.jpg",
     introduction:
-      "Este puente originario del siglo XVI sobre la ría, da acceso al jardín de la Isla. Era de madera, pero fue transformado en el siglo XVIII, destacando de este momento la puerta barroca de Ventura Rodríguez de planta elíptica, realizada en piedra. Marca el inicio de la gran perspectiva hacia el Palacio Real, encuadrada por las dobles hileras de arbolado de la calle de Madrid (55).",
+      "Este puente originario del siglo XVI sobre la ría, da acceso al jardín de la Isla. Era de madera, pero fue transformado en el siglo XVIII, destacando de este momento la puerta barroca de Ventura Rodríguez de planta elíptica, realizada en piedra. Marca el inicio de la gran perspectiva hacia el Palacio Real, encuadrada por las dobles hileras de arbolado de la calle de Madrid.",
     description: [
-      "Es uno de los puntos del camino que en el siglo XVI seguían los Austrias desde Madrid a Aranjuez a través de las huertas de Picotajo y del jardín de la Isla (Ruta 6) y tenía su correspondencia en el desaparecido puente entre el jardín de la Isla y las huertas de Picotajo sobre el río Tajo.",
+      "Es uno de los puntos del camino que en el siglo XVI seguían los Austrias desde Madrid a Aranjuez a través de las huertas de Picotajo y del jardín de la Isla y tenía su correspondencia en el desaparecido puente entre el jardín de la Isla y las huertas de Picotajo sobre el río Tajo.",
     ],
     mapUrl:
       "",
@@ -1154,10 +1154,10 @@ export const INTERESTING_SITES: InterestingSites[] = [
     image:
       "https://minio.notacool.com/aranjuez/fotos/58_aranjuez_mirador_del_puente_verde_hacia_picotajo-1.jpg",
     introduction:
-      "Está conectado con la plaza de Coroneles (59) mediante una corta calle. El desaparecido Puente Verde (49 Rutas H R4 Ruta de los Miradores, R7 Ruta del Raso de la Estrella) fue el paso sobre el río Tajo que los Borbones establecieron para a través de las huertas de Picotajo llegar al Raso de la Estrella, el gran espacio que conducía, de Oeste a Este, con juegos de perspectiva hasta las puertas del Palacio.",
+      "Está conectado con la plaza de Coroneles mediante una corta calle. El desaparecido Puente Verde fue el paso sobre el río Tajo que los Borbones establecieron para a través de las huertas de Picotajo llegar al Raso de la Estrella, el gran espacio que conducía, de Oeste a Este, con juegos de perspectiva hasta las puertas del Palacio.",
     description: [
       "Este punto está ubicado próximo al extremo del jardín de la Isla, conocido como la Isleta.",
-      "Desde aquí se puede contemplar la panorámica del río aguas arriba hacia el Este. Hacia el otro lado, el trazado viario original del ferrocarril del siglo XIX se suma a la perspectiva del cauce. Al Sur se expanden las huertas de Picotajo (1, Rutas R3 R4 R5 R6).",
+      "Desde aquí se puede contemplar la panorámica del río aguas arriba hacia el Este. Hacia el otro lado, el trazado viario original del ferrocarril del siglo XIX se suma a la perspectiva del cauce. Al Sur se expanden las huertas de Picotajo.",
     ],
     mapUrl:
       "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
@@ -1186,7 +1186,7 @@ export const INTERESTING_SITES: InterestingSites[] = [
     introduction:
       "Son los vestigios arqueológicos ferroviarios más antiguos de España, correspondientes a la segunda línea peninsular entre Madrid y Aranjuez inaugurada en 1851: hangares, talleres y la antigua playa de vías.",
     description: [
-      "La primera estación de tren estuvo frente a palacio. Fue construida hacia 1850 por Narciso Pascual y Colomer. Se conserva uno de sus andenes.  Fue sustituida en los años 20 por la nueva estación (40), levantada en el extremo oeste del Raso de la Estrella.",
+      "La primera estación de tren estuvo frente a palacio. Fue construida hacia 1850 por Narciso Pascual y Colomer. Se conserva uno de sus andenes.  Fue sustituida en los años 20 por la nueva estación, levantada en el extremo oeste del Raso de la Estrella.",
     ],
     mapUrl:
       "https://www.google.com/maps/d/embed?mid=11y-lpv6WDEIYPUoLahUFCbRf5rCB6oI&ehbc=2E312F",
