@@ -40,6 +40,8 @@ export default function InterestingSitesForViewInRoute(props: ISiteProps) {
                 src={props.siteImage}
                 fill
                 style={{ objectFit: 'cover' }}
+                loading="lazy"
+                quality={80}
               />
             </div>
           </LinkContainer>

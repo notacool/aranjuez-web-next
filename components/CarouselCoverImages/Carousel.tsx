@@ -14,7 +14,14 @@ export default function CarouselCoverPage() {
     <Carousel showThumbs={false} infiniteLoop showStatus={false} autoPlay>
       {IMAGES.map((image, index) => (
         <div key={index} style={{ position: 'relative', width: '100%', height: '300px' }}>
-          <Image src={image} alt="Vista Aranjuez" fill style={{ objectFit: 'cover' }} />
+          <Image 
+            src={image} 
+            alt="Vista Aranjuez" 
+            fill 
+            style={{ objectFit: 'cover' }}
+            loading="lazy"
+            quality={75}
+          />
         </div>
       ))}
     </Carousel>

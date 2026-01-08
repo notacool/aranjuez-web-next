@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { Grid2, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { useTheme } from "@mui/material";
@@ -52,27 +51,21 @@ export default function CoverPage(props: TypographyProps) {
         </DescriptionText>
       </Grid2>
 
-      <Grid2 size={{ xs: 6 }} style={{ width: "50%", height: "100vh", position: 'relative' }}>
-        <Image
+      <Grid2 size={{ xs: 6 }} style={{height: "100vh"}}>
+        <img
           className="imageLeft"
           alt="aranjuez"
           src="https://minio.notacool.com/aranjuez/interestingSites/web/puente de barcas/aranjuez_puente_de_barcas_1.jpg"
-          fill
-          style={{ objectFit: 'cover' }}
         />
-        <Image
+        <img
           className="imageCenter"
           alt="aranjuez"
           src="https://minio.notacool.com/aranjuez/interestingSites/web/iglesia de alpajes/aranjuez_iglesia_alpajes_1.jpg"
-          fill
-          style={{ objectFit: 'cover' }}
         />
-        <Image
+        <img
           className="imageRight"
           alt="aranjuez"
           src="https://minio.notacool.com/aranjuez/interestingSites/web/casa de infantes/aranjuez_casa_de_infantes_5.jpg"
-          fill
-          style={{ objectFit: 'cover' }}
         />
       </Grid2>
     </Grid2>
