@@ -124,7 +124,7 @@ export const ROUTES_INFO: Route[] = [
     imageUrl:
       "https://minio.notacool.com/aranjuez/fotos/58_aranjuez_mirador_del_puente_verde_hacia_picotajo-1.jpg",
     videoUrl:
-      "https://minio.notacool.com/aranjuez/video/RUTA HUERTAS DE PICOTAJO MP4H265.mp4",
+      "https://minio.notacool.com/aranjuez/videos/ruta del raso de la estrella.mp4",
     to: "6",
     introduction: [
       "Las calles, plazas arboladas y huertas de Picotajo, constituyen el primer ejemplo mundial de jardinería a gran escala, cien años anteriores a los jardines de Versalles, a los que influyó con la geometría y perspectivas de sus calles arboladas y plazas en forma de sol, como las Doce Calles. Su conformación y antigüedad (la primera calle se trazó en 1553) fueron determinantes para la inscripción del paisaje cultural de Aranjuez en la Lista de Patrimonio Mundial en 2001.",
@@ -147,7 +147,7 @@ export const ROUTES_INFO: Route[] = [
     imageUrl:
       "https://minio.notacool.com/aranjuez/fotos/49_mirador_del_puente_verde_hacia_el_raso_de_la_estrella-2.jpg",
     videoUrl:
-      "https://minio.notacool.com/aranjuez/video/RUTA RASO DE LA ESTRELLA MP4H265.mp4",
+      "https://minio.notacool.com/aranjuez/videos/ruta huertas de picotajo.mp4",
     to: "7",
     introduction: [
       "El Raso de la Estrella, debe su nombre a un desaparecido asentamiento medieval. Este amplio espacio al Oeste del palacio, considerado la entrada oficial al Aranjuez, conoció diversas etapas en su conformación, adaptadas éstas a las necesidades protocolarias de los Austrias y los Borbones.",

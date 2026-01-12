@@ -14,6 +14,14 @@ export default function VideoPlayer(props: IVideoProps) {
       height="50vh"
       controls
       light={props.image}
+      crossOrigin="anonymous"
+      config={{
+        file: {
+          attributes: {
+            crossOrigin: "anonymous",
+          },
+        },
+      }}
     />
   );
 }
