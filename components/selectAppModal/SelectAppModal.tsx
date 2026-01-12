@@ -103,7 +103,7 @@ export default function SelectAppModal() {
         </ButtonContainer>
         <FormGroup sx={{ marginTop: 3 }}>
           <FormControlLabel
-            control={<Checkbox />}
+            control={<Checkbox id="dont-ask-again" name="dontAskAgain" />}
             onChange={updateShowModal}
             label="No volver a preguntar"
           />

@@ -32,6 +32,8 @@ export default function Searcher(props: ISearchProps) {
       >
         <SearchIcon sx={{ ml: 1 }} color="disabled" />
         <InputBase
+          id="search-sites"
+          name="search"
           sx={{ ml: 2, flex: 1 }}
           placeholder="Buscar"
           onChange={(e) => getSearch(e.target.value)}

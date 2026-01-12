@@ -81,7 +81,8 @@ export default function ContactForm() {
         <TextField
           value={name}
           sx={{ background: "#fff" }}
-          id="outlined-basic"
+          id="contact-name"
+          name="name"
           label="Nombre"
           fullWidth
           variant="outlined"
@@ -98,7 +99,8 @@ export default function ContactForm() {
         <TextField
           value={email}
           sx={{ background: "#fff" }}
-          id="outlined-basic"
+          id="contact-email"
+          name="email"
           fullWidth
           label="Email"
           variant="outlined"
@@ -112,7 +114,8 @@ export default function ContactForm() {
         <TextField
           value={subject}
           sx={{ background: "#fff" }}
-          id="outlined-basic"
+          id="contact-subject"
+          name="subject"
           label="Asunto"
           fullWidth
           variant="outlined"
@@ -129,7 +132,8 @@ export default function ContactForm() {
           value={message}
           sx={{ background: "#fff" }}
           fullWidth
-          id="outlined-basic"
+          id="contact-message"
+          name="message"
           label="Mensaje"
           multiline
           variant="outlined"

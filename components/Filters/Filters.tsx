@@ -86,7 +86,7 @@ export default function Filters(props: IFilterProps) {
           </ListItemText>
         </ListItemButton>
         {ROUTES_INFO.map((route, index) => {
-          const labelId = `checkbox-list-label-${route.title}`;
+          const labelId = `checkbox-list-label-${route.routeId}`;
           return (
             <ListItemsContainer key={index}>
               <ListItem disablePadding>
@@ -97,11 +97,11 @@ export default function Filters(props: IFilterProps) {
                 >
                   <ListItemIcon>
                     <Checkbox
+                      id={labelId}
                       edge="start"
                       checked={checked.indexOf(route.title) !== -1}
                       tabIndex={-1}
                       disableRipple
-                      inputProps={{ "aria-labelledby": labelId }}
                     />
                   </ListItemIcon>
                   <ListItemText
